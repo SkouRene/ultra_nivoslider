@@ -912,3 +912,289 @@ NHibernate.HibernateException: Missing table: AttributeDateValue
 2012-04-09 17:41:23,815 [40] INFO  Ubootstrap.Logic.Tasks.AddFileSystemExtensionTask [(null)] - *.less
 2012-04-09 17:41:23,822 [40] INFO  Ubootstrap.Logic.Tasks.AddFileSystemExtensionTask [(null)] - Added *.less extension to umbraco/fileSystemProviderSettings/stylesheets in web.config
 2012-04-09 17:41:23,834 [40] INFO  Ubootstrap.Logic.Tasks.AddFileSystemExtensionTask [(null)] - web.config has been updated
+2012-04-09 17:41:30,779 [14] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - End building configuration tasks (took 123ms)
+2012-04-09 17:41:30,781 [14] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Application start took 5176ms
+2012-04-09 17:41:31,221 [38] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'PackagingEditor' from the BuildManager
+2012-04-09 17:41:31,224 [38] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'PackagingEditor' from the BuildManager
+2012-04-09 17:41:36,495 [38] INFO  Umbraco.Framework.Localization.TextManager [(null)] - Start ReloadTexts
+2012-04-09 17:41:36,505 [38] INFO  Umbraco.Framework.Localization.TextManager [(null)] - End ReloadTexts (took 5ms)
+2012-04-09 17:41:37,160 [38] INFO  Umbraco.Framework.Localization.TextManager [(null)] - Start ReloadTexts
+2012-04-09 17:41:37,163 [38] INFO  Umbraco.Framework.Localization.TextManager [(null)] - End ReloadTexts (took 1ms)
+2012-04-09 17:41:37,768 [43] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'Default' from the BuildManager
+2012-04-09 17:41:37,794 [43] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'Default' from the BuildManager
+2012-04-09 17:41:48,258 [41] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'DashboardEditor' from the BuildManager
+2012-04-09 17:41:48,260 [41] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'DashboardEditor' from the BuildManager
+2012-04-09 17:41:56,501 [39] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'TemplateEditor' from the BuildManager
+2012-04-09 17:41:56,503 [39] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'TemplateEditor' from the BuildManager
+2012-04-09 17:41:56,626 [39] INFO  Umbraco.Hive.Tasks.CacheWatcherTask [(null)] - Executing Umbraco.Hive.Tasks.CacheWatcherTask
+2012-04-09 17:42:12,074 [41] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'DocumentTypeTree' from the BuildManager
+2012-04-09 17:42:12,076 [41] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'DocumentTypeTree' from the BuildManager
+2012-04-09 17:42:12,282 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,286 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,287 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,288 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,289 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,290 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,291 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:42:12,292 [41] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:44:29,160 [29] INFO  Umbraco.Framework.Localization.TextManager [(null)] - Start ParseAllPatterns
+2012-04-09 17:44:29,205 [29] INFO  Umbraco.Framework.Localization.TextManager [(null)] - End ParseAllPatterns (took 40ms)
+2012-04-09 17:44:29,769 [11] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'ApplicationTree' from the BuildManager
+2012-04-09 17:44:29,771 [11] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'ApplicationTree' from the BuildManager
+2012-04-09 17:44:30,030 [11] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Querying for controller 'ContentTree' from the BuildManager
+2012-04-09 17:44:30,034 [11] INFO  Umbraco.Cms.Web.Mvc.ControllerFactories.PluginControllerFactory [(null)] - Found controller 'ContentTree' from the BuildManager
+2012-04-09 17:44:30,396 [26] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - FilterWithPermissions
+2012-04-09 17:44:30,400 [26] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - FilterWithPermissions (took 2ms)
+2012-04-09 17:44:30,402 [26] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - Get childIds
+2012-04-09 17:44:31,170 [26] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:44:31,484 [26] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - Get childIds (took 1079ms)
+2012-04-09 17:44:36,968 [30] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - FilterWithPermissions
+2012-04-09 17:44:36,971 [30] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - FilterWithPermissions (took 1ms)
+2012-04-09 17:44:36,973 [30] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - Get childIds
+2012-04-09 17:44:37,264 [30] WARN  NHibernate.Engine.StatefulPersistenceContext.ProxyWarnLog [(null)] - Narrowing proxy to Umbraco.Framework.Persistence.RdbmsModel.AttributeSchemaDefinition - this operation breaks ==
+2012-04-09 17:44:37,689 [30] INFO  Umbraco.Cms.Web.Trees.ContentTreeController [(null)] - Get childIds (took 714ms)
+2012-04-09 17:44:54,630 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-04-09 17:44:54,632 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - IUmbracoRenderModel requires creation
+2012-04-09 17:44:54,633 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 1ms)
+2012-04-09 17:44:54,636 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin ResolveItem
+2012-04-09 17:44:54,832 [11] INFO  Umbraco.Cms.Web.Routing.DefaultRoutingEngine [(null)] - Resolving entity by Non-Domain URL
+2012-04-09 17:44:55,119 [11] INFO  Umbraco.Cms.Web.Routing.DefaultRoutingEngine [(null)] - FindEntityByUrl for URL http://localhost:3558/ took 476ms
+2012-04-09 17:44:55,230 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End ResolveItem (took 593ms)
+2012-04-09 17:44:55,235 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-04-09 17:44:55,236 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-04-09 17:44:55,275 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-04-09 17:44:55,277 [11] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-04-09 17:53:47,942 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Start Initialise
+2012-04-09 17:53:47,973 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Creating shadow copy folder and querying for dlls
+2012-04-09 17:53:47,986 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Shadow copying assemblies
+2012-04-09 17:53:47,989 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Core\lib\Umbraco.Cms.Web.Editors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,024 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Editors, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,027 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Core\lib\Umbraco.CMS.Web.ParameterEditors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,036 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.CMS.Web.ParameterEditors, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,040 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Core\lib\Umbraco.Cms.Web.PropertyEditors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,075 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.PropertyEditors, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,076 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Core\lib\Umbraco.Cms.Web.Tasks.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,116 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Tasks, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,119 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Core\lib\Umbraco.Cms.Web.Trees.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,148 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Trees, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,149 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\Examine\lib\Examine.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,176 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Examine, Version=2.10.0.292, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,176 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\Examine\lib\Lucene.Net.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,214 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Lucene.Net, Version=2.9.2.2, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,217 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\Examine\lib\Umbraco.Framework.Persistence.Examine.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,249 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Framework.Persistence.Examine, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,251 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\SystemInfo\lib\Umbraco.Cms.Packages.SystemInfo.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,274 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Packages.SystemInfo, Version=5.0.1000.0, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,275 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\Ubootstrap\lib\dotless.Core.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,304 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'dotless.Core, Version=1.2.2.0, Culture=neutral, PublicKeyToken=96b446c9e63eae34'
+2012-04-09 17:53:48,305 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - C:\Juhlsen\git_repositories\ultra_nivoslider\ultraNivosliderForUmbraco5\ultraNivosliderForUmbraco5\App_Plugins\Packages\Ubootstrap\lib\Ubootstrap.Logic.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\2aea73a6\a6033ffb
+2012-04-09 17:53:48,394 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Ubootstrap.Logic, Version=1.1.0.30959, Culture=neutral, PublicKeyToken=null'
+2012-04-09 17:53:48,397 [5] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - End Initialise (took 438ms)
+2012-04-09 17:53:49,164 [5] INFO  Umbraco.Cms.Web.UI.MvcApplication [(null)] - Http application warmup
+2012-04-09 17:53:49,174 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder FrameworkSetup
+2012-04-09 17:53:49,228 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 52ms)
+2012-04-09 17:53:49,232 [5] INFO  Umbraco.Cms.Web.UmbracoWebApplication [(null)] - Start called. Product info: Umbraco 5.0.1 build 5.0.1000.0
+2012-04-09 17:53:49,233 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Created
+2012-04-09 17:53:49,366 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Initialising container
+2012-04-09 17:53:49,369 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Booting
+2012-04-09 17:53:49,370 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder UmbracoContainerBuilder`1
+2012-04-09 17:53:49,391 [5] INFO  Umbraco.Cms.Web.UmbracoWebApplication [(null)] - Container is building
+2012-04-09 17:53:49,392 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder WebTypesDemandBuilder
+2012-04-09 17:53:49,408 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 14ms)
+2012-04-09 17:53:49,413 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder MvcTypesDemandBuilder
+2012-04-09 17:53:49,682 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 269ms)
+2012-04-09 17:53:49,687 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder HiveDemandBuilder
+2012-04-09 17:53:49,773 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 85ms)
+2012-04-09 17:53:49,775 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder LoadFromPersistenceConfig
+2012-04-09 17:53:49,790 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for nhibernate in Umbraco.Framework.Persistence.NHibernate
+2012-04-09 17:53:49,810 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder NHibernateDemandBuilder
+2012-04-09 17:53:49,830 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder NHibernateConfigBuilder
+2012-04-09 17:53:49,830 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 3ms)
+2012-04-09 17:53:49,842 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 28ms)
+2012-04-09 17:53:49,843 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a bootstrapper for nhibernate
+2012-04-09 17:53:49,844 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for nhibernate
+2012-04-09 17:53:49,852 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for membership in Umbraco.Hive.Providers.Membership
+2012-04-09 17:53:49,862 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder MembershipDemandBuilder
+2012-04-09 17:53:49,865 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 1ms)
+2012-04-09 17:53:49,870 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a bootstrapper for membership
+2012-04-09 17:53:49,871 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for membership
+2012-04-09 17:53:49,873 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for templates in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:49,890 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:49,890 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:49,892 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for templates
+2012-04-09 17:53:49,893 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for templates
+2012-04-09 17:53:49,894 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for partials in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:49,906 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:49,907 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:49,907 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for partials
+2012-04-09 17:53:49,908 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for partials
+2012-04-09 17:53:49,909 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for file-uploader in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:49,917 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:49,917 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:49,918 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for file-uploader
+2012-04-09 17:53:49,918 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for file-uploader
+2012-04-09 17:53:49,919 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for scripts in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:49,927 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:49,927 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:49,928 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for scripts
+2012-04-09 17:53:49,928 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for scripts
+2012-04-09 17:53:49,929 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for stylesheets in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:49,936 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:49,936 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:49,937 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for stylesheets
+2012-04-09 17:53:50,030 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for stylesheets
+2012-04-09 17:53:50,033 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for macros in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:50,058 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:50,059 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:50,059 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for macros
+2012-04-09 17:53:50,060 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for macros
+2012-04-09 17:53:50,062 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for macro-partials in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:50,071 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:50,072 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:50,073 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for macro-partials
+2012-04-09 17:53:50,073 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for macro-partials
+2012-04-09 17:53:50,074 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Calling setup module for stubs in Umbraco.Hive.Providers.IO
+2012-04-09 17:53:50,086 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ProviderDemandBuilder
+2012-04-09 17:53:50,086 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 0ms)
+2012-04-09 17:53:50,087 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a no-op bootstrapper for stubs
+2012-04-09 17:53:50,088 [5] INFO  Umbraco.Hive.DependencyManagement.ProviderDemandRunner [(null)] - Registering a ProviderDependencyHelper for stubs
+2012-04-09 17:53:50,088 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 313ms)
+2012-04-09 17:53:50,138 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterTasks start took 34ms
+2012-04-09 17:53:50,154 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterTreeControllers start took 13ms
+2012-04-09 17:53:50,171 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterPropertyEditors start took 14ms
+2012-04-09 17:53:50,181 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterParameterEditors start took 7ms
+2012-04-09 17:53:50,194 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterEditorControllers start took 10ms
+2012-04-09 17:53:50,208 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterMenuItems start took 12ms
+2012-04-09 17:53:50,215 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterSurfaceControllers start took 6ms
+2012-04-09 17:53:50,222 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterDashboardFilters start took 4ms
+2012-04-09 17:53:50,225 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterDashboardMatchRules start took 2ms
+2012-04-09 17:53:50,237 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterPermissions start took 7ms
+2012-04-09 17:53:50,245 [5] INFO  Umbraco.Cms.Web.DependencyManagement.UmbracoComponentRegistrar [(null)] - RegisterMacroEngines start took 6ms
+2012-04-09 17:53:50,247 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - Start AddDependencyDemandBuilder ModelMappingsDemandBuilder
+2012-04-09 17:53:50,255 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 8ms)
+2012-04-09 17:53:50,265 [5] INFO  Umbraco.Framework.Localization.TextManager [(null)] - Start ReloadTexts
+2012-04-09 17:53:50,282 [5] INFO  Umbraco.Framework.Localization.TextManager [(null)] - End ReloadTexts (took 15ms)
+2012-04-09 17:53:50,288 [5] INFO  Umbraco.Cms.Web.UmbracoWebApplication [(null)] - Container building is complete
+2012-04-09 17:53:50,288 [5] INFO  Umbraco.Framework.DependencyManagement.AbstractContainerBuilder [(null)] - End AddDependencyDemandBuilder (took 917ms)
+2012-04-09 17:53:50,391 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Booting CmsBootstrapper
+2012-04-09 17:53:52,999 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Registering MVC areas
+2012-04-09 17:53:53,762 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Registering custom MVC routes
+2012-04-09 17:53:53,763 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Booting RenderBootstrapper
+2012-04-09 17:53:53,777 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Registering MVC global filters
+2012-04-09 17:53:53,778 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Registering MVC default routes
+2012-04-09 17:53:53,781 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Executing Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder
+2012-04-09 17:53:53,784 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Building configuration tasks
+2012-04-09 17:53:53,821 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type DisplayUITask for package, registering it as systeminfo-post-package-install
+2012-04-09 17:53:53,823 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,823 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,824 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,825 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,825 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,826 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,826 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,827 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,828 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,830 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,831 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,832 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,833 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,834 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,834 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,835 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,836 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,836 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,837 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,837 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,838 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,838 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,839 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,839 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,840 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,840 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,841 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,841 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,842 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,842 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,843 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,844 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,844 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,845 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,845 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,849 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,850 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,851 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,852 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,852 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,853 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,854 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,854 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,855 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,855 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,856 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,856 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,857 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,857 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,858 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,858 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,859 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,859 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,860 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,860 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,861 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,861 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,862 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,862 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,863 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,864 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,867 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,868 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,868 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,869 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,869 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,870 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,870 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,871 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,871 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,872 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,872 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,873 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,873 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,874 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,874 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,874 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,875 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,875 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,876 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,876 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,877 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,877 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,877 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,878 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,878 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,879 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,882 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,884 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,884 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,885 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,885 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,886 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,886 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,887 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,887 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,887 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,888 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,888 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,889 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,889 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,890 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type CopyFileTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,892 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type AddHttpHandlerTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,892 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type AddHttpModuleTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,893 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type AddHttpModuleTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,893 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - Found post-package-install config task of type AddFileSystemExtensionTask for package, registering it as ubootstrap-post-package-install
+2012-04-09 17:53:53,894 [5] INFO  Umbraco.Cms.Web.Tasks.ConfigurationTaskBuilder [(null)] - End building configuration tasks (took 108ms)
+2012-04-09 17:53:53,895 [5] INFO  Umbraco.Cms.Web.System.Boot.BootManager [(null)] - Application start took 4661ms
+2012-04-09 17:53:54,601 [7] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-04-09 17:53:54,606 [7] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - IUmbracoRenderModel requires creation
+2012-04-09 17:53:54,607 [7] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 5ms)
+2012-04-09 17:53:54,654 [7] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin ResolveItem
+2012-04-09 17:53:55,886 [7] INFO  Umbraco.Cms.Web.Routing.DefaultRoutingEngine [(null)] - Resolving entity by Non-Domain URL
