@@ -1,0 +1,22 @@
+﻿@using Umbraco.Cms.Web;
+@inherits RenderViewPage
+@{
+   <div class="well">
+  <h4>Child content the Model</h4>
+  @foreach (var item in Model.ChildContent())
+  {
+    var childName = item.AsDynamic().Name ?? "(No name yet)";
+    <p>Node name: <b><a href="@item.NiceUrl()">@childName</a></b>, of type <em>@item.ContentType.Name</em>.</p>
+  }
+  </div>
+
+  <div class="well">
+  <h4>Child content DynamicModel</h4>
+  @foreach (var item in DynamicModel.Children)
+  {
+    var childName = item.Name ?? "(No name yet)";
+    <p>Node name: <b><a href="@item.Url">@childName</a></b>, of type <em>@item.ContentType.Name</em>.</p>
+  }
+  </div>
+
+}

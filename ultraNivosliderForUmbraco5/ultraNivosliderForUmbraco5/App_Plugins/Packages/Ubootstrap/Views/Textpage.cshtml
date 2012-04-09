@@ -1,0 +1,26 @@
+﻿@inherits RenderViewPage
+@using System.Web.Mvc.Html
+@using Umbraco.Cms.Web;
+@{
+    Layout = "_BootstrapLayout.cshtml";
+    ViewBag.Title = DynamicModel.Name;
+}
+@section PageTitle
+{
+  <h1>@DynamicModel.Name</h1>
+  <p>@DynamicModel.TextBox</p>
+}
+
+@Umbraco.RenderMacro("breadcrumb")
+<h2>@DynamicModel.Name</h2>
+@Umbraco.Field(Model, "bodyText")
+
+@section SideContent
+{
+    @Umbraco.RenderMacro("sideNavigation")
+    <div class="well">
+    <h4>Want to learn about how to use razor views in Umbraco v5?</h4>
+    <p>Check Warren's code snippets in <a href="https://gist.github.com/warrenbuckley" rel="external">https://gist.github.com/warrenbuckley</a></p>
+    </div>
+
+}

@@ -1,0 +1,21 @@
+﻿@using Umbraco.Cms.Web
+@inherits RenderViewPage
+@{
+  var homepage = DynamicModel.AncestorsOrSelf.Last();
+    
+  <a class="brand" href="@homepage.Url">uBootstrap</a>
+  <nav role="navigation" class="nav-collapse">
+    <ul class="nav">
+      <li@Html.Raw(DynamicModel.Id == homepage.Id ? " class=\"active\"" : "")><a href="@homepage.Url">@homepage.Name</a></li>
+      @foreach (var item in homepage.Children)
+      {
+        if (item.CurrentTemplate == null)
+        {
+            continue;
+        }
+        
+        <li@Html.Raw(DynamicModel.Id == item.Id ? " class=\"active\"" : "")><a href="@item.Url">@item.Name</a></li>
+      }
+    </ul>
+  </nav>
+}

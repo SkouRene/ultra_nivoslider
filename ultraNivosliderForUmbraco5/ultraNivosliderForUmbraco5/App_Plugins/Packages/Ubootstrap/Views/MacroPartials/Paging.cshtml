@@ -1,0 +1,66 @@
+@using Umbraco.Cms.Web
+@using Umbraco.Cms.Web.Macros
+@using Umbraco.Framework
+@inherits PartialViewMacroPage
+@{
+    List<dynamic> items = DynamicModel.Parent.Children.OrderBy("SortOrder");
+    List<string> pages = @items.Select(x => x.Url).Cast<string>().ToList();
+    string currentPage = DynamicModel.Url;
+    @Paging(pages, currentPage)
+}
+
+@helper Paging(IList<string> pages, string currentPage)
+{
+    var totalPages = pages.Count();
+    var currentPageNumber = pages.IndexOf(currentPage);
+    if (totalPages < 1)
+    {
+        return;
+    }
+
+    var previous = Html.Raw(string.Format("&larr; {0}", "Previous"));
+    var next = Html.Raw(string.Format("{0} &rarr;", "Next"));
+    
+    <div class="pagination pagination-centered">
+    <ul>
+    @for (var i = 0; i < totalPages; i++)
+    {
+        if (i == 0)
+        {
+            if (currentPageNumber == 0)
+            {
+                <li class="prev disabled"><a href="#">@previous</a></li><li class="active"><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li>
+            }
+            else
+            {
+                <li class="prev"><a href="@pages[currentPageNumber - 1]">@previous</a></li><li><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li>
+            }
+        }
+        else if (i == totalPages - 1)
+        {
+            if (currentPageNumber == totalPages - 1)
+            {
+                <li class="active"><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li><li class="next disabled"><a href="#">@next</a></li>
+            }
+            else
+            {
+                <li><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li><li class="next"><a href="@pages[currentPageNumber + 1]">@next</a></li>
+            }
+        }
+        else
+        {
+            if (i == currentPageNumber)
+            {
+                <li class="active"><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li>
+            }
+            else
+            {
+                <li><a href="@pages[i]">@Html.Raw((i + 1).ToString())</a></li>
+            }
+        }
+    }
+    </ul>
+  </div>
+
+}
+

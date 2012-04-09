@@ -1,0 +1,25 @@
+@*
+Notice the plusone.js and facebook.js scripts must be set at the end of the page
+Params:
+    DisableFbRoot (bool, optional, default false)
+*@
+@using Umbraco.Cms.Web
+@using Umbraco.Cms.Web.Macros
+@using Umbraco.Framework
+@inherits PartialViewMacroPage
+@{
+    // The <div id="fb-root"></div> must be set only once per page
+    var baseUrl = new UriBuilder(Context.Request.Url.Scheme, Context.Request.Url.Host).Uri;
+    var url = new Uri(baseUrl, DynamicModel.Url.ToString());
+    bool disableFbRoot;
+    bool.TryParse(Model.MacroParameters.DisableFbRoot, out disableFbRoot);
+    <div class="well">
+    <div class="g-plusone" data-size="small" data-annotation="inline" data-width="200" data-href="@url" data-lang="en"></div>
+    @if (!disableFbRoot) 
+    {
+        <div id="fb-root" data-lang="en_US"></div>
+    }
+    <div class="fb-like" data-href="@url" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-action="recommend" data-font="trebuchet ms"></div>
+    </div>
+}
+

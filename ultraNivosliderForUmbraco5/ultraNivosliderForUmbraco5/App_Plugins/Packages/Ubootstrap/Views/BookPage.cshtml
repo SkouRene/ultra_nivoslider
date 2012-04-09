@@ -1,0 +1,37 @@
+﻿@inherits RenderViewPage
+@using System.Web.Mvc.Html;
+@using Umbraco.Cms.Web;
+@using Umbraco.Framework;
+@{
+    Layout = "_BootstrapLayout.cshtml";
+    ViewBag.Title = DynamicModel.Name;
+}
+
+@Umbraco.RenderMacro("breadcrumb")
+<div class="row show-grid">
+  <div class="span4">
+    <img src="@Umbraco.GetMediaUrl(Model.Id)?width=370" alt="@DynamicModel.Name" />
+  </div>
+  <div class="span5">
+    @Umbraco.Field(Model, "bodyText")
+    <p><strong>Publisher: @(DynamicModel.Publisher)</strong></p>
+    <p><small>Number of Pages: @(DynamicModel.NumberOfPages)</small></p>
+  </div>
+</div>
+
+@Umbraco.RenderMacro("paging")
+
+@section SideContent
+{
+    @Umbraco.RenderMacro("recommendWidget")
+    @Umbraco.RenderMacro("sideBookList")
+}
+
+@section ScriptContent
+{
+  @{ 
+    Html.RequiresJs("analytics.js", "Scripts", 20);
+    Html.RequiresJs("plusone.js", "Scripts", 21);
+    Html.RequiresJs("facebook.js", "Scripts", 22);
+  }
+}

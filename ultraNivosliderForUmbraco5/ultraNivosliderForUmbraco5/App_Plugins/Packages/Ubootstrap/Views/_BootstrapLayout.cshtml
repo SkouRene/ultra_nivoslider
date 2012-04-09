@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>@ViewBag.Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <link rel="stylesheet" href="/Content/Styles/Bootstrap/bootstrap.less" />  <link rel="stylesheet" href="/Content/Styles/Bootstrap/responsive.less" />
+
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png" />
+
+  <script src="@Url.Content("~/Scripts/Bootstrap/modernizr-2.5.0.min.js")"></script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <header class="container" role="banner">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        @Html.Partial("Navigation")
+      </header>
+    </div>
+  </div>
+
+	<div class="container">
+  @if (IsSectionDefined("PageTitle"))
+  {
+    <div class="hero-unit">
+      @RenderSection("PageTitle", required: false)
+    </div>
+  }
+
+    <div class="row">
+      <section class="span9" role="main">
+        @RenderBody()
+      </section>
+      <aside class="span3" role="complementary">
+        @RenderSection("SideContent", required: false)
+      </aside>
+    </div>
+
+    <hr />
+
+    <footer>
+      <p>&copy; Company 2012</p>
+    </footer>
+
+	</div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="@Url.Content("~/Scripts/Bootstrap/jquery-1.7.1.min.js")"><\/script>')</script>
+
+  @{ 
+    Html.RequiresJs("bootstrap-transition.js", "Scripts", 0);
+    Html.RequiresJs("bootstrap-alert.js", "Scripts", 1);
+    Html.RequiresJs("bootstrap-modal.js", "Scripts", 2);
+    Html.RequiresJs("bootstrap-dropdown.js", "Scripts", 3);
+    Html.RequiresJs("bootstrap-scrollspy.js", "Scripts", 4);
+    Html.RequiresJs("bootstrap-tab.js", "Scripts", 5);
+    Html.RequiresJs("bootstrap-tooltip.js", "Scripts", 6);
+    Html.RequiresJs("bootstrap-popover.js", "Scripts", 7);
+    Html.RequiresJs("bootstrap-button.js", "Scripts", 8);
+    Html.RequiresJs("bootstrap-collapse.js", "Scripts", 9);
+    Html.RequiresJs("bootstrap-carousel.js", "Scripts", 10);
+    Html.RequiresJs("bootstrap-typeahead.js", "Scripts", 11);
+    Html.RequiresJs("site.js", "Scripts", 12);
+  }
+
+  @MvcHtmlString.Create(Html.RenderJsHere(new List<IClientDependencyPath> { new BasicPath("Scripts", "~/Scripts/Bootstrap")}))
+  @RenderSection("ScriptContent", required: false)
+</body>
+</html>

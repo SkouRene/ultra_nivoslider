@@ -1,0 +1,25 @@
+@using System.IO
+@using Umbraco.Cms.Web
+@using Umbraco.Cms.Web.Macros
+@using Umbraco.Framework
+@inherits PartialViewMacroPage
+@{
+    var appPath = Context.Request.PhysicalApplicationPath;
+    
+    // let's check if the imagegen dll is in place
+    var binPath = Path.Combine(appPath, "bin", "imagegen.dll");
+    var hasDll = File.Exists(binPath);
+
+    // now let's check the handler
+    var handlerPath = Path.Combine(appPath, "ImageGen.ashx");
+    var hasHandler = File.Exists(handlerPath);
+
+    if (!hasDll || !hasHandler)
+    {
+      <div class="alert alert-error">
+          <h3>ImageGen required</h3>
+          It looks like <strong>ImageGen</strong> is not installed. Please follow the instructions <a href="http://blog.percipientstudios.com/2012/2/1/how-to-imagegen-25-with-umbraco-5.aspx" rel="external"><strong>here</strong></a> to set up ImageGen for Umbraco 5
+        </div>
+
+    }
+}

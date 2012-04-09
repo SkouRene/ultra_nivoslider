@@ -1,0 +1,23 @@
+﻿@using System.Reflection
+@using Umbraco.Cms.Web
+@using Umbraco.Cms.Web.Macros
+@using Umbraco.Framework
+@inherits PartialViewMacroPage
+@{
+  <ul class="thumbnails">
+  @foreach (var item in DynamicModel.Children)
+  {
+    <li class="span3">
+      <div class="thumbnail">
+        <img src="@Umbraco.GetMediaUrl(item.Id)@("?width=260&height=220&pad=true&bgcolor=eeeeee")" alt="@item.Name" />
+        <div class="caption">
+          <h5><a href="@item.Url">@item.Name</a></h5>
+          <p>@(((string)item.BodyText).StripHtml().Truncate(110))</p>
+          <p><a class="btn btn-small btn-info" href="@item.Url"><i class="icon-info-sign icon-white"></i> Read more</a></p>
+        </div>
+      </div>
+    </li>
+  }
+  </ul>
+}
+

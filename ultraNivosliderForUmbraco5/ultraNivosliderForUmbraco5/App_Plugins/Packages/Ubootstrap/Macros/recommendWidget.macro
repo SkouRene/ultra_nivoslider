@@ -1,0 +1,1 @@
+<macro alias="recommendWidget" name="Recommend Widget" cacheByPage="false" cachePeriodSeconds="0" cachePersonalized="false" macroType="PartialView" renderContentInEditor="false" selectedItem="RecommendWidget" useInEditor="false" />

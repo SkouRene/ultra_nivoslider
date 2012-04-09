@@ -1,0 +1,26 @@
+@inherits RenderViewPage
+@using System.Web.Mvc.Html;
+@using Umbraco.Cms.Web;
+@{
+	Layout = "_BootstrapLayout.cshtml";
+}
+
+@Umbraco.RenderMacro("contactForm")
+
+@section PageTitle
+{
+  <h1>@DynamicModel.Name</h1>
+  <p>This is the contact page based on a SurfaceController</p>
+}
+
+@section SideContent
+{
+  <div class="well">
+  <h4>Want to know how to create a SurfaceController?</h4>
+  <p>Then check Shannon Deminick's blog <a href="http://shazwazza.com/" rel="external">Shazwazza</a></p>
+  <ul>
+  <li><a href="http://shazwazza.com/post/Umbraco-Jupiter-Plugins-Part-5-Surface-Controllers.aspx" rel="external">Umbraco Jupiter Plugins - Part 5 - Surface Controllers</a></li>
+  <li><a href="http://shazwazza.com/post/Umbraco-v5-Surface-Controller-Forms.aspx" rel="external">Umbracov5 Surface Controller Form</a></li>
+  </ul>
+  </div>
+}

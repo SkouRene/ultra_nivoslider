@@ -1,0 +1,18 @@
+@using Umbraco.Cms.Web
+@using Umbraco.Cms.Web.Macros
+@using Umbraco.Framework
+@inherits PartialViewMacroPage
+@{
+    List<dynamic> items = DynamicModel.Parent.Children.ToList();
+    var books = items.Where(x => x.Id != DynamicModel.Id).Take(3);
+    <ul class="thumbnails">
+        @foreach (var item in books)
+        {
+        <li class="span3">
+          <a href="@item.Url" class="thumbnail" title="@item.Name">
+            <img src="@Umbraco.GetMediaUrl(item.Id)@("?width=260&height=180&pad=true&bgcolor=eeeeee")" alt="@item.Name" />
+          </a>
+        </li>
+        }
+    </ul>
+}

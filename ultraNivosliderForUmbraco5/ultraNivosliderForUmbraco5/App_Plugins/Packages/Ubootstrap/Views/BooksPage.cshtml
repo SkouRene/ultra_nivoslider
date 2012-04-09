@@ -1,0 +1,26 @@
+﻿@inherits RenderViewPage
+@using System.Web.Mvc.Html;
+@using Umbraco.Cms.Web;
+@using Umbraco.Framework;
+@{
+    Layout = "_BootstrapLayout.cshtml";
+    ViewBag.Title = DynamicModel.Name;
+}
+
+@Umbraco.RenderMacro("breadcrumb")
+@Umbraco.RenderMacro("bookList")
+
+@section SideContent
+{
+    @Umbraco.RenderMacro("recommendWidget")
+}
+
+@section ScriptContent
+{
+  @{ 
+    Html.RequiresJs("analytics.js", "Scripts", 20);
+    Html.RequiresJs("plusone.js", "Scripts", 21);
+    Html.RequiresJs("facebook.js", "Scripts", 22);
+  }
+}
+

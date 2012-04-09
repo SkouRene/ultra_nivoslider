@@ -1,0 +1,62 @@
+@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Ubootstrap.Logic.Helpers
+@using Ubootstrap.Logic.Views.Partial
+@using Umbraco.Cms.Web
+@model ContactFormModel
+@{
+if (TempData["FormSentKey"] != null)
+{
+    bool isSent;
+    bool.TryParse(TempData["FormSentKey"].ToString(), out isSent);
+    <div class="alert@{@(!isSent ? " alert-error" : "")}">
+    @MvcHtmlString.Create(TempData["FormSentMessage"].ToString())
+    </div>
+}
+else
+{
+using (Html.BeginUmbracoForm("HandleContactFormSubmit", new Guid("482F41F2-4F36-11E1-86E5-6A054824019B"), null, new Dictionary<string, object> { { "class", "form-horizontal" } }))
+ {
+       <fieldset>
+           <legend>Contact</legend>
+           <div class="control-group @{@(!ViewData.ModelState.IsValidField("Name") ? "error" : "")}">
+             @Html.LabelFor(x => x.Name, new { @class = "control-label" })
+              <div class="controls">
+                  @Html.TextBoxFor(x => x.Name, new { @class = "input-xlarge" })                  
+                  @Html.ValidationMessageFor(x => x.Name, "", new { @class = "help-block" })
+              </div>
+           </div>
+           <div class="control-group">
+             @Html.LabelFor(x => x.AddressLineOne, new { @class = "control-label" })
+              <div class="controls">
+                  @Html.TextBoxFor(x => x.AddressLineOne, new { @class = "input-xlarge" })
+              </div>
+           </div>
+           <div class="control-group">
+             @Html.LabelFor(x => x.AddressLineTwo, new { @class = "control-label hide" })
+              <div class="controls">
+                  @Html.TextBoxFor(x => x.AddressLineTwo, new { @class = "input-xlarge" })
+              </div>
+           </div>
+           <div class="control-group @{@(!ViewData.ModelState.IsValidField("Email") ? "error" : "")}">
+               @Html.LabelFor(x => x.Email, new { @class = "control-label" })
+               <div class="controls">
+                   @Html.TextBoxFor(x => x.Email, new { @class = "input-xlarge" }) 
+                   @Html.ValidationMessageFor(x => x.Email, "", new { @class = "help-block" })
+               </div>
+           </div>
+           <div class="control-group @{@(!ViewData.ModelState.IsValidField("Message") ? "error" : "")}">
+               @Html.LabelFor(x => x.Message, new { @class = "control-label" })
+               <div class="controls">
+                   @Html.TextAreaFor(x => x.Message, new { @class = "input-xlarge" }) 
+                   @Html.ValidationMessageFor(x => x.Message, "", new { @class = "help-block" })
+               </div>
+           </div>
+           <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+            @Html.AntiForgeryToken()
+       </fieldset>
+   }
+}
+}
